@@ -36,6 +36,9 @@
       "@configuration": [
         "src/configuration/index"
       ],
+      "@model": [
+        "src/model/index"
+      ],
       "@service": [
         "src/app/service/index"
       ],

@@ -1,1 +1,16 @@
-<p>upload works!</p>
+<div class="m-3">
+  <form class='row border' (submit)="handleSubmit($event)">
+    <div class="col-6 p-5">
+      <h3 class="mb-4">File Upload</h3>
+      <input type="file" class="form-control mb-3" (change)="handleChange($event)" />
+      <button type="submit" class="btn btn-primary">
+        Upload
+      </button>
+    </div>
+    <div class="col-6 p-5">
+      <div *ngFor="let msg of alertMsgs" class="alert alert-{{alertVarient}} m-3">
+        {{msg.text}}
+      </div>
+    </div>
+  </form>
+</div>

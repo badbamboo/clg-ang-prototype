@@ -6,7 +6,7 @@
 	"port": "10200",
 	"tmpl": {
 		"welcomePage": {
-			"tmplData": { "title": "OCR Image Scan Demo: Angular UI " },
+			"tmplData": { "title": "OCR Prototype" },
 			"tmplPath": "./assets/template/welcome.md",
       "url": "http://localhost:10200/scan"
 		}
