@@ -1,1 +1,13 @@
-<p>navigation works!</p>
+<nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container">
+    <a class="navbar-brand text-white" href="#">{{title}}</a>
+    <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+
+      <div class="d-flex">
+        <ng-container  *ngFor="let nv of navList">
+          <a class="text-white pr-3 text-capitalize" [routerLink]="['/']" [innerHTML]="nv.key" ></a>
+        </ng-container>
+      </div>
+    <!-- </div> -->
+  </div>
+</nav>

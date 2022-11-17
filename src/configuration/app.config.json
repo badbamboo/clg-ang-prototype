@@ -1,0 +1,6 @@
+{
+	"navList": [
+		{ "key": "home", "value": "/" },
+		{ "key": "upload", "value": "/upload" }
+	]
+}
