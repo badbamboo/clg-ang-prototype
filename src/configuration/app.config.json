@@ -2,5 +2,14 @@
 	"navList": [
 		{ "key": "home", "value": "/" },
 		{ "key": "upload", "value": "/upload" }
-	]
+	],
+	"port": "10200",
+	"tmpl": {
+		"welcomePage": {
+			"tmplData": { "title": "OCR Image Scan Demo: Angular UI " },
+			"tmplPath": "./assets/template/welcome.md",
+      "url": "http://localhost:10200/scan"
+		}
+	},
+	"title": "OCR Prototype"
 }
