@@ -3,7 +3,7 @@
     <a class="navbar-brand text-white" href="#">{{title}}</a>
       <div class="d-flex">
         <ng-container  *ngFor="let nv of navList">
-          <a class="text-white pr-3 text-capitalize" [routerLink]="['/']" [innerHTML]="nv.key" ></a>
+          <a class="text-white pr-3 text-capitalize" [routerLink]="[nv.value]" [innerHTML]="nv.key" ></a>
         </ng-container>
       </div>
   </div>
